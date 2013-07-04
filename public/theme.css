@@ -1,0 +1,170 @@
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font: 85% arial, helvetica, sans-serif;
+	text-align: center;
+	color: #333;
+	background-color: #eeeeee;
+}
+
+a:link { color: #B52C07; }
+a:visited { color: #b52c07; }
+
+a:hover, a:active
+{
+	color: #fff;
+	background-color: #B52C07;
+}
+
+
+#container
+{
+	margin: 1em auto;
+	width: 650px;
+	text-align: left;
+	background-color: #ffffff;
+	border: 1px none #ffffff;
+	border: 1px solid #676767;
+}
+
+#header
+{
+	height: 45px;
+	width: 100%;
+	background-color: #69c;
+	border-bottom: 1px solid #ffffff;
+	position: relative;
+	border: 1px none #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+#header h1
+{
+	color: #fff;
+	font: 200% Georgia, Times, "Times New Roman", serif;
+	font-weight: bold;
+	margin: 0 0 0 20px;
+	padding-top: 5px;
+	letter-spacing: 5px;
+}
+
+#footer
+{
+	clear: both;
+	color: #272900;
+	text-align: right;
+	font-size: 90%;
+	background-color: #9FA41D;
+	padding: 5px;
+	font-size: 90%;
+}
+
+#mainnav
+{
+	background-color: #9fa41d;
+	color: #272900;
+	padding: 2px 0;
+	margin-bottom: 22px;
+}
+
+#mainnav ul 
+{ 
+	list-style-type: none; 
+	margin: 0 0 0 20px;
+	padding: 0;
+	border-left: 1px solid #c4c769;
+}
+
+#mainnav li 
+{ 
+	display: inline; 
+	padding: 0 10px;
+	border-right: 1px solid #c4c769;
+}
+
+#mainnav li a
+{
+	text-decoration: none;
+	color: #272900;
+}
+
+#mainnav li a:hover
+{
+	text-decoration: none;
+	color: #fff;
+	background-color: #272900;
+}
+
+#contents { margin: 0 220px 40px 20px; } /* was 200px */
+#contents p { line-height: 165%; }
+
+#widecontents { margin: 0 20px 40px 20px; }
+#widecontents p { line-height: 165%; }
+
+.section { border-bottom: 1px solid #c5c877; margin-bottom: 10px;}
+
+.section ul
+{
+	list-style-type: none;
+	text-align: right;
+	margin: 1em 0;
+	padding: 0;
+	font-size: 90%;
+}
+
+.section li
+{
+	display: inline;
+	padding: 0 0 0 7px;
+}
+
+h2
+{
+	color: #B52C07;
+	font: 120% georgia, times, "times new roman", serif;
+	font-weight: bold;
+	margin: 0 0 2px 0;
+}
+
+tr.head
+{
+background-color: #9fa41d;
+font-weight: bold;
+}
+
+tr.even
+{
+background-color: #ddd;
+}
+
+tr.odd
+{
+	background-color: #fff;
+}
+
+#menu
+{
+	float: right;
+	width: 185px; /* was 165 */
+	border-left: 1px solid #c5c877;
+	padding-left: 15px;
+}
+
+#menu ul
+{
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+	line-height: 165%;
+}
+
+h3
+{
+	color: #5B5E0E;
+	font: 106% georgia, times, "times new roman", serif;
+	font-weight: bold;
+	margin-top: 0;
+}
+
