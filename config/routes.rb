@@ -1,8 +1,9 @@
 AcelixTest2::Application.routes.draw do
-  root 'home#index'
+  get 'pages/:handle' => 'clubhome#page'
+  root 'clubhome#index'
 
   get "clubhome/" => 'clubhome#index'
-  get "home/index"
+  get "home/" => 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
