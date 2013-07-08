@@ -2,12 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-      body {
+/*= require css/bootstrap.min
+/*= require css/bootstrap-responsive.min
+/*= require_self
+
+/* */
+
+body {
         padding-top: 20px;
         padding-bottom: 40px;
       }
 
-      /* Custom container */
+/* Custom container */
       .container-narrow {
         margin: 0 auto;
         max-width: 700px;

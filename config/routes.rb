@@ -1,4 +1,5 @@
 AcelixTest2::Application.routes.draw do
+  get "dashboard/index"
   get 'pages/:handle' => 'clubhome#page'
   get 'login' => 'clubhome#login'
   root 'clubhome#index'
